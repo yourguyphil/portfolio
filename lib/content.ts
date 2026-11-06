@@ -160,16 +160,15 @@ export const projects: Project[] = [
     image: "/projects/simple-rts.png",
     pixelArt: true,
     featured: true,
-    badge: "New · Free to play",
     description: [
       "Creator and developer of Simple RTS, a free browser real-time strategy game and a love letter to the genre: gather gold and wood, build your base, and command your army.",
-      "Pick Humans or Orcs, train Workers, Scouts, Swordsmen, Archers and Knights, scout through the fog of war and destroy every enemy Castle or Stronghold. Two resources, a focused army, and decisions that matter: easy to learn, hard to master.",
-      "The game is built in Unity and C#, with a companion Next.js site that hosts the browser build, a full unit and building guide, and a new-player strategy primer.",
+      "Owned the project end to end: built the game in Unity and C#, a companion Next.js site that hosts the browser build and a full unit and building guide, and led the marketing and release strategy.",
+      "Engineered online ladder play on a Photon server, Cloudflare Turnstile for bot protection, and Stripe checkout to collect purchases.",
     ],
-    stack: ["Unity", "C#", "Next.js", "React"],
+    stack: ["Unity", "C#", "Photon", "Next.js", "React", "Stripe", "Cloudflare Turnstile"],
     links: [
       { label: "Play Simple RTS", href: "https://simple-rts.com", event: "Project Simple RTS" },
-      { label: "itch.io", href: "https://yourguyphil.itch.io/simple-rts", event: "Project Simple RTS itch" },
+      { label: "itch.io", href: "https://averagearchmage.itch.io/simple-rts", event: "Project Simple RTS itch" },
     ],
   },
 ];
