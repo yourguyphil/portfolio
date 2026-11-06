@@ -21,9 +21,9 @@ Requires Node 20.9+.
 
 ## Analytics (Plausible)
 
-Analytics is off until you set `NEXT_PUBLIC_PLAUSIBLE_DOMAIN`. Copy `.env.example` to `.env.local` for local use, or set the variables in your host's dashboard. To use your own site-specific or self-hosted script, set `NEXT_PUBLIC_PLAUSIBLE_SRC`.
+The self-hosted Plausible script (`plausible.philipsnguyen.com`) is configured in `components/Plausible.tsx`. It loads only in production builds, so `npm run dev` isn't tracked. Set `NEXT_PUBLIC_PLAUSIBLE_SRC` to swap in a different script URL.
 
-Custom events are wired with Plausible tagged events (the `plausible-event-name=...` classes): `Resume Download`, `Contact Submit`, and one `Project ...` event per project link. Outbound link tracking comes from the default script variant.
+Custom events use tagged-event classes (`plausible-event-name=...`): `Resume Download`, `Contact Submit`, and one `Project ...` event per project link. Enable the matching custom events or features in your Plausible site settings so they are recorded.
 
 ## Contact form
 
