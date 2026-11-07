@@ -19,7 +19,7 @@ export const nav = [
 ];
 
 export const stats = [
-  { value: "7+", label: "Years engineering" },
+  { value: "8+", label: "Years of professional experience" },
   { value: "6,000+", label: "Members on platforms I built" },
   { value: "Finance & Retail", label: "Industries" },
 ];

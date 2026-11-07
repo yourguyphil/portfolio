@@ -69,7 +69,7 @@ export default function Home() {
                 Atlanta, GA.
               </p>
               <p>
-                I have over 7 years of experience designing and implementing solutions in the
+                I have over 8 years of experience designing and implementing solutions in the
                 financial and retail industries using Scrum Agile.
               </p>
               <p>

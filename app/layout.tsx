@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-body", display: "swa
 const grotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-display", display: "swap" });
 
 const description =
-  "Philips Nguyen is a backend software engineer in Atlanta, GA with 7+ years of experience building fast, reliable, and secure systems in finance and retail.";
+  "Philips Nguyen is a backend software engineer in Atlanta, GA with 8+ years of experience building fast, reliable, and secure systems in finance and retail.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
